@@ -1,4 +1,5 @@
 import './index.scss';
+import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Cabecalho from '../../components/cabecalho';
 import Mapa from '../../components/mapa';
@@ -132,12 +133,18 @@ export default function Inicio() {
       </div>
       <div className='rodape' id='contato'>
         <div className='icones'>
-          <a href="https://api.whatsapp.com/send?phone=5511952867448"><img src="/assets/images/whats.jpg" alt="" /></a>
-          <a href=""><img src="/assets/images/email.jpg" alt="" /></a>
-          <a href="https://www.instagram.com/cstro.dev/profilecard/"><img src="/assets/images/insta.jpg" alt="" /></a>
+          <Link to={'https://api.whatsapp.com/send?phone=5511952867448'}>
+            <img src="/assets/images/whats.jpg" alt="" />
+          </Link>
+          <Link>
+            <img src="/assets/images/email.jpg" alt="" />
+          </Link>
+          <Link to={'https://www.instagram.com/cstro.dev/profilecard/'}>
+            <img src="/assets/images/insta.jpg" alt="" />
+          </Link>
         </div>
         <div className='copy'>
-          ©️ 2025 — Sim, fizemos um site só pra casar mesmo. 
+          ©️ 2025 — Sim, fizemos um site só pra casar mesmo.
         </div>
       </div>
     </div>
