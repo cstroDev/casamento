@@ -10,4 +10,3 @@ root.render(
     <Navegacao />
   </React.StrictMode>
 );
-
