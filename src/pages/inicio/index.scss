@@ -111,35 +111,5 @@
 
   }
 
-  .rodape {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 80px;
-
-
-    .icones {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      background-color: #e5e5e5;
-      height: 250px;
-      gap: 30px;
-
-      img {
-        width: 75px;
-        border-radius: 50%;
-      }
-    }
-
-    .copy {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #000;
-      color: #fff;
-      height: 50px;
-    }
-  }
+  
 }

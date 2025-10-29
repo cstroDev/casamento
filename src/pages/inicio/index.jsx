@@ -1,7 +1,8 @@
 import './index.scss';
-import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Cabecalho from '../../components/cabecalho';
+import Rodape from '../../components/rodape';
 import Mapa from '../../components/mapa';
 
 export default function Inicio() {
@@ -127,26 +128,12 @@ export default function Inicio() {
             </div>
           </div>
           <h2 style={{ textAlign: 'start', marginTop: '80px' }} id='presenca'>Presença</h2>
-          <button>Confirmar presença</button>
-        </div>
-
-      </div>
-      <div className='rodape' id='contato'>
-        <div className='icones'>
-          <Link to={'https://api.whatsapp.com/send?phone=5511952867448'}>
-            <img src="/assets/images/whats.jpg" alt="" />
+          <Link to={'/presenca'}>
+            <button >Confirmar presença</button>
           </Link>
-          <Link>
-            <img src="/assets/images/email.jpg" alt="" />
-          </Link>
-          <Link to={'https://www.instagram.com/cstro.dev/profilecard/'}>
-            <img src="/assets/images/insta.jpg" alt="" />
-          </Link>
-        </div>
-        <div className='copy'>
-          ©️ 2025 — Sim, fizemos um site só pra casar mesmo.
         </div>
       </div>
+      <Rodape />
     </div>
   );
 }
