@@ -1,31 +1,31 @@
 .card-presente {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        background-color: #e5e5e5;
-        width: 200px;
-        height: 280px;
-        padding: 20px;
-        border-radius: 15px;
-        gap: 10px;
-        margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e5e5e5;
+    width: 200px;
+    height: 280px;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 10px;
+    margin-top: 50px;
 
-        h5 {
-            font: 400 13px 'Poppins';
-        }
-
-        img {
-            width: 120px;
-            border-radius: 10px;
-        }
-
-        button {
-            background-color: #fff;
-            border: none;
-            padding: 10px;
-            border-radius: 20px;
-            width: 130px;
-        }
+    h5 {
+        font: 400 13px 'Poppins';
     }
+
+    img {
+        width: 120px;
+        border-radius: 10px;
+    }
+
+    button {
+        background-color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+        width: 130px;
+    }
+}
